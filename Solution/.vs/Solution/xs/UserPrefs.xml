@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{E000BED5-9584-45FD-A01A-1742AAE64DBF}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.MyProject.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyProject.Tests/GreaterTests.cs">
+    <Files>
+      <File FileName="MyProject/Greater.cs" Line="10" Column="10" />
+      <File FileName="MyProject.Tests/GreaterTests.cs" Line="14" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Solution" expanded="True">
+            <Node name="MyProject.Tests" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
