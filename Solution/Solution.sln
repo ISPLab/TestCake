@@ -9,14 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Tests", "MyProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Android", "App1\App1.Android\App1.Android.csproj", "{34C5D4A3-F22D-440A-B161-34631C9541D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.UWP", "App1\App1.UWP\App1.UWP.csproj", "{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "App1", "App1\App1\App1.shproj", "{DCF1A3BB-01A5-418C-A07D-C2AF55E7FD12}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		App1\App1\App1.projitems*{34c5d4a3-f22d-440a-b161-34631c9541d6}*SharedItemsImports = 4
-		App1\App1\App1.projitems*{bbbcc24e-edd6-42ee-b6e3-c6f30053ce3b}*SharedItemsImports = 4
 		App1\App1\App1.projitems*{dcf1a3bb-01a5-418c-a07d-c2af55e7fd12}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,26 +83,6 @@ Global
 		{34C5D4A3-F22D-440A-B161-34631C9541D6}.Release|x86.ActiveCfg = Release|Any CPU
 		{34C5D4A3-F22D-440A-B161-34631C9541D6}.Release|x86.Build.0 = Release|Any CPU
 		{34C5D4A3-F22D-440A-B161-34631C9541D6}.Release|x86.Deploy.0 = Release|Any CPU
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|ARM.ActiveCfg = Debug|ARM
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|ARM.Build.0 = Debug|ARM
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|ARM.Deploy.0 = Debug|ARM
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|x64.ActiveCfg = Debug|x64
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|x64.Build.0 = Debug|x64
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|x64.Deploy.0 = Debug|x64
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|x86.ActiveCfg = Debug|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|x86.Build.0 = Debug|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Debug|x86.Deploy.0 = Debug|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|Any CPU.ActiveCfg = Release|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|ARM.ActiveCfg = Release|ARM
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|ARM.Build.0 = Release|ARM
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|ARM.Deploy.0 = Release|ARM
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|x64.ActiveCfg = Release|x64
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|x64.Build.0 = Release|x64
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|x64.Deploy.0 = Release|x64
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|x86.ActiveCfg = Release|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|x86.Build.0 = Release|x86
-		{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
