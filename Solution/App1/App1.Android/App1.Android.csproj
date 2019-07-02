@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3D8A322A-EC6D-4AD0-9CCE-DA02582FD435}</ProjectGuid>
+    <ProjectGuid>{34C5D4A3-F22D-440A-B161-34631C9541D6}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -91,11 +91,6 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{0B4F0355-DB82-4150-9480-1F77D517333A}</Project>
-      <Name>App1</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <Import Project="..\App1\App1.projitems" Label="Shared" />
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

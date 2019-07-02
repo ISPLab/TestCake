@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{F274183A-2B1B-4ADD-8855-C377D7B26AEB}</ProjectGuid>
+    <ProjectGuid>{BBBCC24E-EDD6-42EE-B6E3-C6F30053CE3B}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App1.UWP</RootNamespace>
@@ -146,12 +146,7 @@
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5"/>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{0B4F0355-DB82-4150-9480-1F77D517333A}</Project>
-      <Name>App1</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <Import Project="..\App1\App1.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
